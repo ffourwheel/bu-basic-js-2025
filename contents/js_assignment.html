@@ -47,6 +47,19 @@
 
     <h3>Your solution for assignment</h3>
 
+    <input id ='txtNewtask' type="text" placeholder="Enter new task."/>
+    <input id ='txtAdd' type="button" value="Add"/>
+    <input id ='clearTodos' type="button" value="Clear all todos">
 </body>
+<script>
+  function Addtxt(){
+    let input = document.getElementById('txtNewtask')
+    let txtAdd = input.value.trim();
+     if (taskText === '') {
+        alert('Please enter a task.');
+        return;
+      }
+  }
+</script>
 
 </html>
